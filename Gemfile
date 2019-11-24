@@ -57,3 +57,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'webpacker'
 gem 'react-rails'
+gem 'devise'
+gem 'pry', '~> 0.12.2'
