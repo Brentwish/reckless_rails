@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   # get 'list', action: :show, to: 'list'
 
   resources :lists
+  resources :projects, only: %w[index show]
 end
